@@ -1,0 +1,651 @@
+
+/* This is the front name which imort from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Here's the all Color Code and Name */
+/* 
+    orange : #FEA301
+    skyblue: #01ACFD 
+    white : #F7F7F7 
+    
+*/
+
+
+/* This this html body part */
+html,
+body {
+    background-color: #f7f7ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* This is Shared Style part  */
+
+.btn-primary {
+
+    font-family: Quicksand;
+    color: #ffffff;
+    background: rgb(254, 163, 1);
+    border: none;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 12px;
+   
+
+}
+
+.btn {
+
+    font-family: Quicksand;
+    cursor: pointer;
+    align-content: center;
+    
+}
+
+/*  This is Navigation-Bar part */
+
+body {
+
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+header {
+    
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+}
+
+/*  This is Navigation-Bar Menu-Bar part */
+
+.menu-bar{
+  
+    display: none;
+    font-size: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    padding: 16px;
+}
+
+.logo>h3 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 720;
+    
+}
+
+.nav-container {
+    display: flex;
+    max-width: 1100px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+
+nav,
+.logo,
+.btn-primary {
+    align-content: center;
+}
+
+nav>ul {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul li {
+    padding: 0px 20px;
+    list-style: none;
+    
+}
+
+nav ul li {
+    font-family: Quicksand;
+    align-items: center;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-size: 21px;
+    font-weight: 550;
+}
+
+nav>ul li a {
+    color: black;
+    text-decoration: none;
+    
+}
+
+nav ul li .li1 {
+    color: Orange;
+}
+
+nav ul li .li2 {
+    color: rgb(1, 172, 253);
+}
+
+nav ul li .li3 {
+    color: rgb(5, 212, 223);
+}
+
+nav ul li .li4 {
+    color: rgb(93, 88, 239);
+}
+
+/*  This is the Banner Style part */
+
+#banner {
+
+    background-image: url(assets/bg.png);
+    display: flex;
+    margin: 0px auto;
+    max-width: 1100px;
+   
+}
+
+.leftside {
+
+    align-content: center;
+    padding: 10px;
+}
+
+.banner-title {
+    font-family: Quicksand;
+    padding: 10px;
+    font-size: 54px;
+    font-weight: 720px;
+}
+
+.banner-description {
+    font-family: Quicksand;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 420;
+}
+
+.button {
+    background-color: black;
+    color: #F7F7F7;
+    margin: 10px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 700;
+}
+
+/* This is the Curriculum part */
+
+#curriculum {
+    background-image: url(assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    align-content: center;
+    justify-content: center;
+    height: 810px;
+    background-size: cover;
+  
+   
+}
+
+.curr-title {
+    font-family: Quicksand;
+    text-align: center;
+    margin-bottom: 78px;
+    font-size: 46px;
+    font-weight: 820;
+    
+}
+
+.card-container {
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    width: 333px;
+    justify-items: center;
+    background-image: linear-gradient(#DEF5FF, #f7f7ff);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+
+.card2 {
+    width: 333px;
+    justify-items: center;
+    background-image: linear-gradient(#FFF4DC, #ffffff);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+
+.card3 {
+    width: 333px;
+    justify-items: center;
+    background-image: linear-gradient(#f3eefa, #ffffff);
+    padding: 50px 20px;
+    border-radius: 15px;
+}
+
+.card-title {
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-description {
+    font-family: raleway;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.btn-card {
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: #F7F7F7;
+    color: #64C8FF;
+    cursor: pointer;
+}
+
+.icon1,
+.icon2 {
+    background-color: #FEA301;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px 12px;
+    color: #f3eefa;
+}
+
+.icon {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/* This is the Story Section part */
+
+#stories {
+    background-image: url(assets/bg.png);
+}
+
+.stories-container {
+    background: url(image), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    padding-bottom: 50px;
+}
+
+.stories-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.secondary-stories-container {
+    display: flex;
+    width: 1200px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.multiple-box {
+    position: relative;
+    width: 622px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.single-box {
+    width: 250px;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.box-title {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38.35px;
+    text-align: left;
+    padding: 20px;
+}
+
+.box-title1,
+.box-title2,
+.box-title3,
+.box-title4 {
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: bold;
+    line-height: 28.76px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 20px;
+}
+
+.box-description {
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    padding: 20px;
+    text-align: left;
+}
+.date{
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(60, 216, 232);
+    padding: 10px;
+    position: absolute;
+    left: 200px;
+    top: 355px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.date1{
+    font-family: Raleway;
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 122, 18);;
+    position: absolute;
+    left: 45px;
+    top: 150px;
+    padding: 8px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;    
+}
+.date2{
+    font-family: Raleway;
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 28px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(122, 73, 18);;
+    line-height: 28px;
+    padding: 10px;
+    position: absolute;
+    left: 400px;
+    top: 150px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;      
+}
+.date3{
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 28px;
+    position: absolute;
+    left: 400px;
+    top: 470px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 124, 4);;
+    font-family: Raleway;
+    padding: 10px;
+    border-radius: 45px;
+    text-align: left;
+    text-transform: capitalize;      
+}
+.date4{
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 8px;
+    border-radius: 45px;
+    text-align: left;
+    position: absolute;
+    left: 60px;
+    top: 480px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 102, 199);;
+    font-family: Raleway;
+    text-transform: capitalize;      
+}
+.single-box {
+    border-radius: 20px;
+    height: auto;
+    width: 630px;
+    background-color: #f7f7ff;
+    margin: 20px;
+    padding: 0;
+    
+
+   
+}
+
+img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+
+
+/* This is the Footer Section part */
+
+*{
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+   
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+footer{
+    padding: 70px 0px;
+    background-color: rgb(1, 172, 253);
+  
+}
+.row{
+    width: 30%;
+}
+
+ul{
+    list-style: none;
+}
+li>a{
+    text-decoration: none;
+}
+.ft-img{
+    display: flex;
+}
+.ft-img>img{
+    width: 80px;
+}
+.social-img>img{
+    display: inline;
+    width: 50px;
+    border-radius: 5px;
+    padding-top: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ft-img>h3 , .footer-col>h3{
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.footer-col>p{
+    line-height: 25px;
+    text-align: left;
+    padding: 20px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-col ul{
+    padding-top: 30px;
+}
+.footer-col ul li>a{
+    font-size: 20px;
+    font-weight: 510;
+    line-height: 38px;
+    color:white;
+    font-family: Quicksand;
+    font-size: 20px;
+
+}
+
+/* Now Responsive the Header Section part */
+
+
+@media (max-width:576px) {
+
+    nav,
+    .btn,
+    .logo>h3 {
+        display: none;
+    }
+    .menu-bar{
+        color: #000;
+        display: block;
+        margin-top: 30px;
+        margin-right: 30px;
+    }
+    .nav-container {
+        width: 100%;
+    }
+
+    #banner {
+        flex-direction: column-reverse;
+        padding: 15px;
+    }
+
+    .rightside>img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .leftside {
+        text-align: center;
+    }
+
+    .banner-title {
+        font-size: 32px;
+    }
+
+    .banner-description {
+        font-size: 14px;
+    }
+
+ /*This is the Curriculum Section Style part*/
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .curr-title {
+        padding-top: 50px;
+    }
+
+    .icon {
+        display: none;
+    }
+
+/* This is the Story Section Style part */
+
+    .single-box {
+        display: none;
+    }
+
+    .stories-container {
+        margin-top: 600px;
+    }
+
+    .multiple-box {
+        width: 500px;
+    }
+
+    .box1,
+    .box2,
+    .box3,
+    .box4 {
+        width: 200px;
+        background-color: #F7F7F7;
+        border-radius: 20px;
+        margin: 20px;
+    }
+    .date1{
+        top: 120px;
+        left: 50px;
+        padding: 3px 10px;
+    }
+    .date2{
+        top: 120px;
+        left: 300px;
+        padding: 3px 10px;
+    }
+    .date3{
+        top: 420px;
+        left: 320px;
+        padding: 3px 10px;
+    }
+    .date4{
+        top: 420px;
+        left: 50px;
+        padding: 3px 10px;
+    }
+
+/* This is the Footer Section design part  */
+
+    .container{
+        flex-direction: column;
+    }
+    .row{
+        width: 100%;
+        padding: 48px;
+    }
+
+}
